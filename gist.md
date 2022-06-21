@@ -34,7 +34,7 @@ Anchors look for characters that are within brackets [], or a string value such 
 
 ### Quantifiers
 
-Quantifiers give a range of characters allowed. This is always wrap in {}. Within our code, the range given is between 2 and 6 characters.
+Quantifiers give a range of characters allowed, or limits of the string value. This is always wrap in {}. Within our code, the range given is between 2 and 6 characters.
 
 ### Grouping Constructs
 
@@ -46,12 +46,20 @@ Bracket expressions are used to set the range allowed for characters in the emai
 
 ### Character Classes
 
+Character classes are what defines the regex. Bracket expressions are a form of character classes!
+
 ### The OR Operator
+
+The OR Operator allows you string to check for multiple values by separating them with an | symbol. This checks both values to see if one of them fits the criteria needed for the email.
 
 ### Flags
 
+FLags are symbols placed at the end of the regex to define functionality and the limits of the regex. 
+
 ### Character Escapes
+
+Character espaces are used to allow characters to be interpreted correctly. A \ symbol is used before a bracket expression or quantifier to show which character it should be using.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Tyler Richard, student of UoA coding bootcamp. GitHub (https://github.com/TR742)
